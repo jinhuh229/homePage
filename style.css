@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text');
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+
+
+#name1{
+	font-family: 'Libre Barcode 39 Text', cursive;
+	font-size:40px;
+}
+
+.carousel-inner .item{
+
+	height:100vh;
+}
+
+
+.carousel-caption{
+
+	padding-bottom: 280px;
+}
+.carousel-caption h5{
+
+	font-size:100px;
+	
+	font-family: 'Libre Barcode 39 Text', cursive;
+}
+
+.carousel-caption p{
+
+	font-family: 'Rubik', sans-serif;
+	font-size:40px;
+}
+
+.jumbotron { 
+    background-color:black;
+    background-size:cover;
+    background-repeat:no-repeat;
+    padding:80px;
+    color:white;
+}
+
+.container{
+ 
+  padding-top:50px;
+  padding-bottom:40px;
+
+}
+
+
+.body{
+	font-family: arial, sans-serif;
+
+}
+
+#name{
+
+	font-size:3em;
+	font-family: 'Libre Barcode 39 Text', cursive;
+
+}
+
+#position{
+	font-size:1em;
+	font-family: 'Rubik', sans-serif;
+
+}
+
+
+#explain{
+	font-size:1em;
+	font-family: 'Rubik', sans-serif;
+	color:white;
+
+}
+
+#contact_button{
+	padding-top:50px;
+
+}
+
+#index-intro{
+	width:100%;
+	background-color:black;
+}
+
+
+
+
+#about{
+	font-family: 'Orbitron', sans-serif;
+	padding-bottom:0px;
+	font-size:3em;
+
+}
+
+#project{
+	font-family: 'Orbitron', sans-serif;
+	font-size:3em;
+
+
+}
+#contact{
+	font-family: 'Orbitron', sans-serif;
+	padding-bottom:40px;
+	font-size:3em;
+}
+
+
+
+#tech, #tech1{
+
+	padding-top:70px;
+	
+}
+
+
+
+@media only screen and (max-width: 959px) {}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {}
