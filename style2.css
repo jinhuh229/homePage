@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black');
+@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text');
+@import url('https://fonts.googleapis.com/css?family=Lalezar');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+.school-banner-picture{
+  background-image: url("./image/gsu2.jpg");
+  height:800px;
+  background-position:center;
+  background-size:cover;
+
+}
+
+.school-banner-title{
+  margin-top: 430px;
+  text-align:center;
+  width:100%;
+  color:white;
+  font-family: 'Merriweather Sans', sans-serif;
+  position:absolute;
+}
+
+.school-education{
+  background-color:#D3D3D3;
+  height:1300px;
+  background-position:center;
+  background-size:cover;
+  width:100%;
+
+}
+
+.school-explain{
+  margin-top:50px;
+  width:100%;
+  position:absolute;
+  font-family: 'Merriweather Sans', sans-serif;
+
+
+}
+
+.school-classes {
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+    padding: 15px;
+    border: 1px solid #708090;
+    text-align: left;
+    height:200px;
+
+}
