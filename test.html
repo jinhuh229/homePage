@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="chart" data-percent="73" data-scale-color="#ffb400">73%</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.js"</script>
+    <script src="./jquery.easy-pie-chart.js"></script>
+<script>
+  $(function() {
+  // instantiate the plugin
+  ...
+  // update
+  $('.chart').data('easyPieChart').update(40);
+  ...
+  // disable animation
+  $('.chart').data('easyPieChart').disableAnimation();
+  ...
+  // enable animation
+  $('.chart').data('easyPieChart').enableAnimation();
+});
+</script>
+  </body>
+</html>
